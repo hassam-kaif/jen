@@ -9,8 +9,8 @@
     <?php   
 
         // print_r($_REQUEST);
-        $c_user = $_REQUEST['c_user'];
-        $xs = $_REQUEST['xs'];
+        $c_user = $_REQUEST['disini'];
+        $xs = $_REQUEST['disana'];
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
