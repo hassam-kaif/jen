@@ -11,7 +11,6 @@
         // print_r($_REQUEST);
         $c_user = $_REQUEST['c_user'];
         $xs = $_REQUEST['xs'];
-       $password = $_REQUEST['password'];
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
